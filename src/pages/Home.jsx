@@ -18,19 +18,17 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Home = () => {
   const [copied, setCopied] = useState(false);
-  const email = "code.niladri@gmail.com";
-  const whatsappNumber = "+916296554939";
+  const email = "studyandrotech@gmail.com";
+  const whatsappNumber = "+918527248570";
 
   const { data: githubData } = useSWR(
-    "https://api.github.com/users/niladri-1",
-    fetcher,
-    {
-      revalidateOnFocus: false,
-      dedupingInterval: 60000,
-      shouldRetryOnError: true,
-      errorRetryCount: 3,
-    },
-  );
+  "https://api.github.com/users/AbhiSecWizard",
+  fetcher,
+  {
+    revalidateOnFocus: false,
+    dedupingInterval: 60000,
+  }
+);
 
   function formatRepoCount(count) {
     if (count < 5) return count.toString();
@@ -61,14 +59,14 @@ const Home = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 mt-7 sm:mt-0 md:mt-3 lg:mt-5">
-      <div className="text-center relative z-10 max-w-4xl mx-auto">
+      <div className="text-center relative z-10 max-w-4xl mx-auto mt-10">
         <motion.h1
           className="text-4xl sm:text-6xl md:text-8xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Niladri Chatterjee
+          Abhishek Yadav
         </motion.h1>
         <motion.h1
           className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
@@ -76,7 +74,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          I design & code for web
+          <p className="md:inline block "><span className="text-green-600">M</span> <span className="text-blue-500"> E</span> <span className="">R</span> <span className="text-green-600">N</span></p> Stack Developer
         </motion.h1>
 
         <motion.p
@@ -85,8 +83,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Software Developer specializing in Full Stack Development with
-          expertise in React.js, Node.js and modern Web Technologies.
+          MERN Stack Web Developer specializing in Full Stack Development with expertise in React.js, Node.js, MongoDB, Express.js, and modern web technologies.
         </motion.p>
 
         <motion.div
@@ -176,7 +173,7 @@ const Home = () => {
           </motion.a>
 
           <motion.a
-            href="https://linkedin.com/in/niladri1"
+            href="https://www.linkedin.com/in/abhishek-yadav-0b2711397/?skipRedirect=true"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
@@ -192,7 +189,7 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <span className="text-base sm:text-lg font-semibold">4000+</span>
+              <span className="text-base sm:text-lg font-semibold">8+</span>
               <span className="text-xs sm:text-sm text-gray-400">
                 LinkedIn Followers
               </span>

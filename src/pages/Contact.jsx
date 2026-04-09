@@ -33,16 +33,16 @@ const Contact = () => {
   }
 
   const contactInfo = [
-    { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'code.niladri@gmail.com', link: 'mailto:code.niladri@gmail.com' },
-    { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+916296554939', link: 'tel:+916296554939' },
-    { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Kolkata, West Bengal, India' },
+    { icon: <Mail className="w-5 h-5" />, label: 'Email', value: 'studyandrotech@gmail.com', link: 'mailto:studyandrotech@gmail.com' },
+    { icon: <Phone className="w-5 h-5" />, label: 'Phone', value: '+918527248570', link: 'tel:+918527248570' },
+    { icon: <MapPin className="w-5 h-5" />, label: 'Location', value: 'Nangloi, Delhi, India'},
     { icon: <Clock className="w-5 h-5" />, label: 'Time Zone', value: 'IST (UTC+5:30)' },
   ]
 
   const socialLinks = [
-    { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/niladri-1' },
-    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', link: 'https://linkedin.com/in/niladri1' },
-    { icon: <MessageCircle className="w-5 h-5" />, label: 'WhatsApp', link: 'https://wa.me/+916296554939' },
+    { icon: <Github className="w-5 h-5" />, label: 'GitHub', link: 'https://github.com/AbhiSecWizard' },
+    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/abhishek-yadav-0b2711397/' },
+    { icon: <MessageCircle className="w-5 h-5" />, label: 'WhatsApp', link: 'https://wa.me/+918527248570'},
   ]
 
   return (
@@ -125,19 +125,7 @@ const Contact = () => {
               </div>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="bg-gray-800/50 p-5 sm:p-6 rounded-xl backdrop-blur-sm"
-            >
-              <h3 className="text-lg sm:text-xl font-semibold mb-4">Office Hours</h3>
-              <div className="space-y-2 text-gray-400 text-sm sm:text-base">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM (IST)</p>
-                <p>Saturday: 10:00 AM - 2:00 PM (IST)</p>
-                <p>Sunday: Closed</p>
-              </div>
-            </motion.div>
+            
           </div>
 
           {/* Right Column - Form */}

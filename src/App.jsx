@@ -8,7 +8,7 @@ import Loading from "./components/Loading";
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Education = lazy(() => import("./pages/Education"));
-const Experience = lazy(() => import("./pages/Experience"));
+// const Experience = lazy(() => import("./pages/Experience"));
 const Skills = lazy(() => import("./pages/Skills"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Certificates = lazy(() => import("./pages/Certificates"));
@@ -112,7 +112,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/education" element={<Education />} />
-              <Route path="/experience" element={<Experience />} />
+              {/* <Route path="/experience" element={<Experience />} /> */}
               <Route path="/skills" element={<Skills />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/certificates" element={<Certificates />} />

@@ -8,67 +8,67 @@ import dockerPdf from "@/assets/files/certificates_pdf/docker_fundamentals.pdf";
 import pythonPdf from "@/assets/files/certificates_pdf/python.pdf";
 import cybersecurityPdf from "@/assets/files/certificates_pdf/cybersecurity_virtual_program.pdf";
 
-const certificates = [
-  {
-    title: "Typescript Programming",
-    issuer: "Geekster",
-    date: "22th April 2025",
-    link: typescriptPdf,
-    description:
-      "Covers TypeScript fundamentals, including syntax, types. Includes practical examples and real-world applications.",
-    skills: [
-      "TypeScript",
-      "JavaScript",
-      "Frontend Development",
-      "Backend Development",
-    ],
-  },
-  {
-    title: "AWS ECS Deployment and Management",
-    issuer: "KodeKloud",
-    date: "20th March 2025",
-    link: awsEcsPdf,
-    description:
-      "Covers deploying and managing containers on AWS using ECS, including cluster management, load balancing, auto-scaling, and CI/CD integration.",
-    skills: ["AWS ECS", "Cloud Computing", "DevOps", "CI/CD"],
-  },
-  {
-    title: "JavaScript Programming",
-    issuer: "HackerRank",
-    date: "18th February 2025",
-    link: javascriptPdf,
-    description:
-      "Validates JavaScript fundamentals, including syntax, functions, and problem-solving.",
-    skills: ["JavaScript", "ES6", "Asynchronous Programming"],
-  },
-  {
-    title: "Docker Fundamentals",
-    issuer: "KodeKloud",
-    date: "18th February 2025",
-    link: dockerPdf,
-    description:
-      "Teaches containerization, networking, security, and CI/CD with Docker.",
-    skills: ["Docker", "Containerization", "CI/CD"],
-  },
-  {
-    title: "Python Programming",
-    issuer: "HackerRank",
-    date: "10 Oct 2023",
-    link: pythonPdf,
-    description:
-      "Validates Python basics, including loops, functions, and data structures.",
-    skills: ["Python", "Functions", "Data Structures"],
-  },
-  {
-    title: "Cybersecurity Virtual Program",
-    issuer: "Forage",
-    date: "10 Jul 2023",
-    link: cybersecurityPdf,
-    description:
-      "Focuses on cybersecurity threats, vulnerabilities, and risk mitigation.",
-    skills: ["Cybersecurity", "Threat Mitigation", "Ransomware"],
-  },
-];
+// const certificates = [
+//   {
+//     title: "Typescript Programming",
+//     issuer: "Geekster",
+//     date: "22th April 2025",
+//     link: typescriptPdf,
+//     description:
+//       "Covers TypeScript fundamentals, including syntax, types. Includes practical examples and real-world applications.",
+//     skills: [
+//       "TypeScript",
+//       "JavaScript",
+//       "Frontend Development",
+//       "Backend Development",
+//     ],
+//   },
+//   {
+//     title: "AWS ECS Deployment and Management",
+//     issuer: "KodeKloud",
+//     date: "20th March 2025",
+//     link: awsEcsPdf,
+//     description:
+//       "Covers deploying and managing containers on AWS using ECS, including cluster management, load balancing, auto-scaling, and CI/CD integration.",
+//     skills: ["AWS ECS", "Cloud Computing", "DevOps", "CI/CD"],
+//   },
+//   {
+//     title: "JavaScript Programming",
+//     issuer: "HackerRank",
+//     date: "18th February 2025",
+//     link: javascriptPdf,
+//     description:
+//       "Validates JavaScript fundamentals, including syntax, functions, and problem-solving.",
+//     skills: ["JavaScript", "ES6", "Asynchronous Programming"],
+//   },
+//   {
+//     title: "Docker Fundamentals",
+//     issuer: "KodeKloud",
+//     date: "18th February 2025",
+//     link: dockerPdf,
+//     description:
+//       "Teaches containerization, networking, security, and CI/CD with Docker.",
+//     skills: ["Docker", "Containerization", "CI/CD"],
+//   },
+//   {
+//     title: "Python Programming",
+//     issuer: "HackerRank",
+//     date: "10 Oct 2023",
+//     link: pythonPdf,
+//     description:
+//       "Validates Python basics, including loops, functions, and data structures.",
+//     skills: ["Python", "Functions", "Data Structures"],
+//   },
+//   {
+//     title: "Cybersecurity Virtual Program",
+//     issuer: "Forage",
+//     date: "10 Jul 2023",
+//     link: cybersecurityPdf,
+//     description:
+//       "Focuses on cybersecurity threats, vulnerabilities, and risk mitigation.",
+//     skills: ["Cybersecurity", "Threat Mitigation", "Ransomware"],
+//   },
+// ];
 
 const Certificates = () => {
   return (
@@ -85,7 +85,7 @@ const Certificates = () => {
         </motion.div>
       </ScrollAnimation>
 
-      <div className="grid md:grid-cols-2 gap-6">
+      {/* <div className="grid md:grid-cols-2 gap-6">
         {certificates.map((cert, index) => (
           <ScrollAnimation key={cert.title}>
             <motion.div
@@ -127,8 +127,8 @@ const Certificates = () => {
               </div>
             </motion.div>
           </ScrollAnimation>
-        ))}
-      </div>
+        ))} */}
+      {/* </div> */}
     </div>
   );
 };

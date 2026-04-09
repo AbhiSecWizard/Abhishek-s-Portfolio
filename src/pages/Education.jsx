@@ -1,36 +1,36 @@
 import { motion } from 'framer-motion'
 import { GraduationCap, Calendar, MapPin, BookOpen, Award, FileText, ExternalLink } from 'lucide-react'
 import { ScrollAnimation } from '@/components/ScrollAnimation'
-import collegeImg from '@/assets/education/college_img.jpg'
-import schoolImg from '@/assets/education/school_img.jpg'
+import collegeImg from '@/assets/education/college_img.webp'
+import schoolImg from '@/assets/education/schoolImage.webp'
 import bTechPdf from '@/assets/files/education_pdf/B Tech.pdf'
 import hsMarkSheetPdf from '@/assets/files/education_pdf/HS MARK SHEET.pdf'
 
 const Education = () => {
   const educationData = [
     {
-      school: 'Bengal College of Engineering and Technology',
-      location: 'Durgapur, WB, India',
-      duration: 'July 2020 - June 2024',
-      degree: 'B.Tech (Computer Science and Engineering)',
-      grade: 'CGPA: 8.48 (80%)',
+      school: 'PCTI Institute IGNOU',
+      location: 'Pitampura,Delhi, India',
+      duration: 'July 2024 - Continue',
+      degree: 'BCA (Bachelor of Computer Applications)',
       image: collegeImg,
-      resultUrl: bTechPdf,
-      coursework: ["Software Development", 'DSA', 'OOPs', 'DBMS', 'AI', 'ML', 'OS', 'Networking'],
+      coursework: ["Software Development", 'DSA', 'OOPs','OS', 'Networking',"Linux"],
       description:
-        'During my time at BCET, I have built a strong foundation in computer science, focusing on software development, problem-solving, and real-world applications. Engaging in hands-on projects, internships, and coding challenges has helped me enhance my technical and analytical skills.',
+        'During my BCA at IGNOU, I built a strong foundation in core computer science concepts with a focus on software development, analytical thinking, and real-world problem-solving. Through practical assignments, self-driven projects, and continuous learning, I strengthened both my technical knowledge and implementation skills.This academic journey helped me understand how to design, develop, and manage efficient software applications while following modern development practices.'
+        
+        ,
     },
     {
-      school: 'Birsingha Bhagabati Vidyalaya (H.S)',
-      location: 'Medinipur, WB, India',
-      duration: 'June 2018 - July 2019',
-      degree: 'Higher Secondary (WBSC)',
-      grade: 'Percentage: 79%',
+      school: 'Govt. Boys Sn. Sec. School',
+      location: 'Nangloi, Delhi, India',
+      duration: 'March-2023-March-2024',
+      degree: 'Higher Secondary',
+      // grade: 'Percentage: 79%',
       image: schoolImg,
-      resultUrl: hsMarkSheetPdf,
-      subjects: ['Physics', 'Chemistry', 'Mathematics', 'Biology', 'Computer Science'],
+      // resultUrl: hsMarkSheetPdf,
+      subjects: ['Mathematics', 'History', 'Social Science', 'Computer Science','Economics'],
       description:
-        'My higher secondary education laid the foundation for my technical journey, strengthening my analytical thinking and problem-solving abilities. The strong emphasis on mathematics and computer science has been instrumental in shaping my passion for software development.',
+        'Studied a diverse set of subjects including Mathematics, History, Social Science, and Computer Science, which helped build a balanced foundation of analytical thinking, problem-solving ability, and understanding of societal and technological concepts. Mathematics strengthened logical reasoning, while Computer Science developed technical skills. History and Social Science enhanced critical thinking and awareness of social structures, supporting a well-rounded academic perspective.',
     },
   ]
 
@@ -78,9 +78,7 @@ const Education = () => {
                         <span>{edu.location}</span>
                       </div>
                       <div className="flex items-center gap-2 text-gray-300">
-                        <Award className="w-4 h-4" />
-                        <span>{edu.grade}</span>
-                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -121,16 +119,7 @@ const Education = () => {
                     </div>
                   )}
 
-                  <motion.a
-                    href={edu.resultUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-6 py-2.5 bg-white/10 hover:bg-white/20 rounded-lg transition-all text-sm font-medium"
-                    whileHover={{ scale: 1.02 }}
-                  >
-                    View Result
-                    <ExternalLink className="w-4 h-4" />
-                  </motion.a>
+    
                 </div>
               </div>
             </motion.div>

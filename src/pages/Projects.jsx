@@ -3,62 +3,44 @@ import { ScrollAnimation } from "@/components/ScrollAnimation";
 import project1 from "@/assets/projects_img/project-1.png";
 import project2 from "@/assets/projects_img/project-2.png";
 import project3 from "@/assets/projects_img/project-3.png";
-import project4 from "@/assets/projects_img/project-4.png";
 
 const projects = [
   {
-    title: "E-Mail Spam Detector",
+    title: "JOB PORTAL",
     description:
-      "AI-powered Gmail client that detects spam, summarises emails, and lets you chat with your inbox — built with React, Node.js & Gemini API.",
-    image: project4,
-    github: "https://github.com/niladri-1/EMail-Spam-Detector",
-    live: "https://spam-detector1.vercel.app",
-    tags: [
-      "MongoDB",
-      "Express",
-      "React",
-      "Node",
-      "JavaScript",
-      "Gmail API",
-      "OAuth2",
-    ],
-  },
-  {
-    title: "Book Store",
-    description:
-      "A modern Book Management System built with the MERN stack (React 19 & Tailwind 4.0). Features secure JWT authentication, protected routes, and full CRUD functionality.",
-    image: project3,
-    github: "https://github.com/niladri-1/Bookstore-Auth-MERN",
-    live: "https://curd-auth-app.vercel.app",
-    tags: [
-      "MongoDB",
-      "Express",
-      "React",
-      "Node",
-      "Tailwind",
-      "JWT",
-      "Bcrypt",
-      "REST API",
-    ],
-  },
-  {
-    title: "NetScan-Pro",
-    description:
-      "Bash-based network scanning tool that provides live host discovery, port scanning, traceroute, and ping tests, featuring visually appealing ASCII banners and 80+ star at GitHub",
-    image: project2,
-    github: "https://github.com/niladri-1/NetScan-Pro",
-    live: "",
-    tags: ["Linux", "Bash", "Networking", "Monitoring", "NMAP", "Scripting"],
-  },
-  {
-    title: "Student Portfolio",
-    description:
-      "A professional portfolio template for engineering students. Easy to set up, fully customizable, and perfect for showcasing projects and skills.",
+      "Hirred is a comprehensive full-stack job portal that enables recruiters to manage listings and candidates to seamlessly apply for jobs and track their application status using Clerk authentication and Supabase.",
     image: project1,
-    github: "https://github.com/niladri-1/Frontend-develope-portfolio",
-    live: "https://techfolio1.vercel.app",
-    tags: ["Next", "Tailwind CSS", "TypeScript", "ThreeJS", "Responsive"],
+    github: "https://github.com/AbhiSecWizard/hirredJobPortal",
+    live: "https://hirredjobportal.netlify.app/",
+    tags: [
+      "Supabase",
+      "React",
+      "JavaScript"
+    ],
   },
+  {
+    title: "QuickKart E Commerce",
+    description:
+      "E commerce web Portal , where you can feel real e commerce website ui and Frontend developer",
+    image: project2,
+    github: "https://github.com/AbhiSecWizard/QuickKart",
+    live: "https://quickkart69g.netlify.app/",
+    tags: [
+      "React",
+      "Tailwind",
+      "REST API",
+      "Clerk"
+    ],
+  },
+  {
+    title: "Authentication App",
+    description:
+      "A complete production-ready authentication system built using the MERN stack with secure cookie-based JWT authentication. This project demonstrates real-world implementation of user registration, login, email verification, password reset via OTP, and protected routes with persistent login sessions.",
+    image: project3,
+    github: "https://github.com/AbhiSecWizard/AuthMern-Backend-",
+    live: "https://auth-mern-frontend-wnmb.vercel.app/",
+    tags: ["Tailwind", "React Js","Bravo Api","Express","Node Js","Mongo DB"],
+  }
 ];
 
 const Projects = () => {
@@ -69,7 +51,6 @@ const Projects = () => {
           Featured Projects
         </h2>
       </ScrollAnimation>
-
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project) => (
           <ScrollAnimation key={project.title}>

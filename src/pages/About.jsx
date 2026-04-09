@@ -9,26 +9,19 @@ const About = () => {
   const achievements = [
     {
       icon: <Code2 className="w-6 h-6" />,
-      title: "10+ Projects",
+      title: "3+ Projects",
       description: "Completed full-stack web applications",
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
-      title: "3+ Internships",
-      description: "Professional work experience",
-    },
-    {
-      icon: <GraduationCap className="w-6 h-6" />,
-      title: "8.48 CGPA",
-      description: "Academic excellence",
-    },
+      title: "1+ Internships",
+      description: "As Frontend Developer",
+    }
   ];
-
+   
   const interests = [
     "Web Development",
     "UI/UX Design",
-    "Cloud Computing",
-    "DevOps",
     "Open Source",
     "Artificial Intelligence",
   ];
@@ -55,23 +48,14 @@ const About = () => {
         <ScrollAnimation className="space-y-6">
           <div className="space-y-4">
             <p className="text-gray-300 leading-relaxed">
-              Hi! I'm a passionate full-stack developer with expertise in
-              building modern web applications. My journey in tech started
-              during my college years, where I discovered my love for creating
-              innovative solutions through code.
+              Hi! I'm a passionate MERN Stack Full-Stack Developer with strong expertise in building modern, scalable, and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js.
+            My journey into tech began during my college years, where I discovered my love for solving real-world problems through code and creating impactful digital experiences.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I completed my B.Tech in Computer Science, maintaining a strong
-              academic record while actively engaging in real-world projects and
-              internships. This blend of theoretical knowledge and practical
-              experience has shaped my approach to problem-solving and software
-              development.
+              I completed my B.Tech in Computer Science, maintaining a solid academic record while actively working on real-world projects. This balance of theoretical knowledge and hands-on development shaped my practical approach to software engineering and problem-solving. 
             </p>
             <p className="text-gray-300 leading-relaxed">
-              I specialize in React, Node.js, and modern web technologies, with
-              a keen interest in creating performant and user-friendly
-              applications. My experience includes working with various startups
-              and contributing to open-source projects.
+              I specialize in developing end-to-end web applications — from crafting responsive frontends in React to building secure and efficient APIs with Node.js and Express, and managing data effectively with MongoDB.
             </p>
           </div>
 
@@ -82,9 +66,9 @@ const About = () => {
               </h3>
               <ul className="list-none space-y-3">
                 {[
-                  "Based in Kolkata, WB, India",
-                  "B.Tech in Computer Science",
-                  "CGPA: 8.48",
+                  "Based In delhi,New Delhi, India",
+                  "BCA",
+                  
                 ].map((fact) => (
                   <motion.li
                     key={fact}

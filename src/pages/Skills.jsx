@@ -42,9 +42,9 @@ const skills = [
     icon: <Code2 className="w-6 h-6" />,
     items: [
       { name: "JavaScript", icon: <JavaScriptLogo /> },
-      { name: "TypeScript", icon: <TypeScriptLogo /> },
-      { name: "Python", icon: <PythonLogo /> },
-      { name: "Bash", icon: <BashLogo /> },
+      // { name: "TypeScript", icon: <TypeScriptLogo /> },
+      // { name: "Python", icon: <PythonLogo /> },
+      // { name: "Bash", icon: <BashLogo /> },
     ],
   },
   {
@@ -52,7 +52,7 @@ const skills = [
     icon: <Layout className="w-6 h-6" />,
     items: [
       { name: "React.js", icon: <ReactLogo /> },
-      { name: "Next.js", icon: <NextjsLogo /> },
+      // { name: "Next.js", icon: <NextjsLogo /> },
       { name: "Tailwind", icon: <TailwindLogo /> },
       { name: "Redux", icon: <ReduxLogo /> },
     ],
@@ -101,7 +101,7 @@ const skills = [
     icon: <Terminal className="w-6 h-6" />,
     items: [
       { name: "Windows", icon: <WindowsLogo className="w-4 h-4" /> },
-      { name: "Ubuntu", icon: <UbuntuLogo className="w-4 h-4" /> },
+      // { name: "Ubuntu", icon: <UbuntuLogo className="w-4 h-4" /> },
       { name: "Linux", icon: <LinuxLogo className="w-4 h-4" /> },
     ],
   },
