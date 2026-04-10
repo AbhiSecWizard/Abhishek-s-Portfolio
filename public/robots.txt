@@ -36,4 +36,3 @@ Allow: /favicon.ico
 Allow: /*.pdf$
 
 # Sitemap
-Sitemap: https://niladri1.vercel.app/sitemap.xml
