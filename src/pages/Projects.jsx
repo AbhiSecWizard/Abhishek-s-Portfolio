@@ -3,6 +3,7 @@ import { ScrollAnimation } from "@/components/ScrollAnimation";
 import project1 from "@/assets/projects_img/project-1.png";
 import project2 from "@/assets/projects_img/project-2.png";
 import project3 from "@/assets/projects_img/project-3.png";
+import project4 from "@/assets/projects_img/project-4.png";
 
 const projects = [
   {
@@ -40,6 +41,15 @@ const projects = [
     github: "https://github.com/AbhiSecWizard/AuthMern-Backend-",
     live: "https://auth-mern-frontend-wnmb.vercel.app/",
     tags: ["Tailwind", "React Js","Bravo Api","Express","Node Js","Mongo DB"],
+  },
+  {
+    title:"Blog Beam",
+    description:
+      "A full-stack blog platform that enables users to create and read posts while providing an admin dashboard for complete content and comment moderation. The system supports publishing workflows with draft and approval states, ensuring quality control before content goes live. Administrators can review comments, mark them as approved or unapproved, and manage overall platform activity from a centralized dashboard. The application delivers a smooth user experience with dynamic rendering, secure APIs, and efficient state management",
+    image: project4,
+    github: "https://github.com/AbhiSecWizard/Blog-App-Frontend",
+    live: "https://blog-app-frontend-xz19.onrender.com",
+    tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Axios", "ImageKit"]
   }
 ];
 
