@@ -4,6 +4,7 @@ import project1 from "@/assets/projects_img/project-1.png";
 import project2 from "@/assets/projects_img/project-2.png";
 import project3 from "@/assets/projects_img/project-3.png";
 import project4 from "@/assets/projects_img/project-4.png";
+import project5 from "@/assets/projects_img/project-5.png";
 
 const projects = [
   {
@@ -50,7 +51,15 @@ const projects = [
     github: "https://github.com/AbhiSecWizard/Blog-App-Frontend",
     live: "https://blog-app-frontend-xz19.onrender.com",
     tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Axios", "ImageKit"]
-  }
+  },
+   {
+  title: "E-Learning Platform (LMS)",
+  description: "A full-stack Learning Management System (LMS) featuring a multi-role architecture for instructors and students. It includes an advanced admin dashboard with real-time sales value analytics (Total Sales, Revenue) using Recharts, custom dynamic theme context for fluid Light/Dark mode transitions, and strict route protection. Instructors can seamlessly manage course creation, lecture uploads, and multi-state publishing workflows (Draft/Published), while students can track their custom learning progress via secure APIs and efficient state caching.",
+  image: project5,
+  github: "https://github.com/AbhiSecWizard/LMS-system", 
+  live: "https://blog-app-frontend-xz19.onrender.com", // 💡 नोट: अगर लाइव लिंक अलग है तो यहाँ बदल लें
+  tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Redux Toolkit", "RTK Query", "Tailwind CSS", "Shadcn UI"]
+}
 ];
 
 const Projects = () => {
