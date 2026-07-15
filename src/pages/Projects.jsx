@@ -57,7 +57,7 @@ const projects = [
   description: "A full-stack Learning Management System (LMS) featuring a multi-role architecture for instructors and students. It includes an advanced admin dashboard with real-time sales value analytics (Total Sales, Revenue) using Recharts, custom dynamic theme context for fluid Light/Dark mode transitions, and strict route protection. Instructors can seamlessly manage course creation, lecture uploads, and multi-state publishing workflows (Draft/Published), while students can track their custom learning progress via secure APIs and efficient state caching.",
   image: project5,
   github: "https://github.com/AbhiSecWizard/LMS-system", 
-  live: "https://blog-app-frontend-xz19.onrender.com", // 💡 नोट: अगर लाइव लिंक अलग है तो यहाँ बदल लें
+  live: "https://lms-system-frontend-8k9n.onrender.com", // 💡 नोट: अगर लाइव लिंक अलग है तो यहाँ बदल लें
   tags: ["MongoDB", "Express.js", "React.js", "Node.js", "Redux Toolkit", "RTK Query", "Tailwind CSS", "Shadcn UI"]
 }
 ];
