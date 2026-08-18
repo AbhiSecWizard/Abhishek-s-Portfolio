@@ -62,9 +62,6 @@ const projects = [
 }
 ];
 
-
-
-
 const Projects = () => {
   return (
     <div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto pb-20">

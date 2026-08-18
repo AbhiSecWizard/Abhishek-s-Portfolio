@@ -147,7 +147,7 @@ const Home = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <motion.a
-            href="https://github.com/niladri-1"
+            href="https://github.com/AbhiSecWizard/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center group w-full"
