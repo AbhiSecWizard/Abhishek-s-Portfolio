@@ -40,7 +40,7 @@ const projects = [
       "A complete production-ready authentication system built using the MERN stack with secure cookie-based JWT authentication. This project demonstrates real-world implementation of user registration, login, email verification, password reset via OTP, and protected routes with persistent login sessions.",
     image: project3,
     github: "https://github.com/AbhiSecWizard/AuthMern-Backend-",
-    live: "https://auth-mern-frontend-wnmb.vercel.app/",
+    live: "https://authentication-frontend-evo7.onrender.com",
     tags: ["Tailwind", "React Js","Bravo Api","Express","Node Js","Mongo DB"],
   },
   {
